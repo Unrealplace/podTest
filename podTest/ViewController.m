@@ -19,6 +19,11 @@
     
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
+    self.view.backgroundColor = [UIColor orangeColor];
+    UIButton * btn = [[UIButton alloc]init];
+    btn.frame = CGRectMake(3, 0, 10, 88);
+    [self.view addSubview:btn];
+    
 }
 
 - (void)didReceiveMemoryWarning {
