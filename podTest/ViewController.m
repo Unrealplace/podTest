@@ -26,7 +26,21 @@
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     UILabel * label = [[UILabel alloc ]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:label];
+    NSLog(@"yyy");
     
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+
+    [super viewWillDisappear:YES];
+}
+-(void)viewWillAppear:(BOOL)animated{
+
+    [super viewWillAppear:YES];
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    NSLog(@"kkkk");
 }
 
 -(void)btnClick{
