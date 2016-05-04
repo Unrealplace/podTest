@@ -1,0 +1,13 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - UIButton-SSEdgeInsets (0.1.2)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 0.8)
+  - UIButton-SSEdgeInsets (~> 0.1.2)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  UIButton-SSEdgeInsets: a183cd4125538ff1eac844c2a23ea1395e7d5514
+
+COCOAPODS: 0.39.0
