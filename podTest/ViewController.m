@@ -23,9 +23,16 @@
     UIButton * btn = [[UIButton alloc]init];
     btn.frame = CGRectMake(3, 0, 10, 88);
     [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    UILabel * label = [[UILabel alloc ]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:label];
     
 }
 
+-(void)btnClick{
+
+    NSLog(@"dddd");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
